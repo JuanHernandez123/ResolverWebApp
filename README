@@ -1,0 +1,50 @@
+
+**Test Automation Framework - Maven Based**
+
+This test automation framework is built on Maven, providing a robust and scalable structure for automated testing focused on Resolver assessment. Below are key features and instructions on usage:
+
+### Key Features:
+
+1. **Maven Integration:** The framework utilizes Maven as a build and project management tool, ensuring easy dependency management and project configuration.
+
+2. **Executable Test Cases:**
+    - To execute all test cases, use: `mvn clean test`
+    - To execute a specific test case (e.g., `WebAppRunner.java`), use: `mvn clean test -Dtest=WebAppRunner`
+
+3. **Report Generation:**
+    - Test reports are automatically generated and can be found at `target/ExtendReport.html`.
+    - These reports provide detailed insights into test execution results, facilitating effective analysis.
+
+### Project Structure:
+
+The project follows a structured layout, separating test cases, page objects, and configurations. Key directories include:
+   - `src/test/java`: Contains test cases and associated classes.
+   - `src/main/java`: Includes page objects, utilities, and other supporting classes.
+   - `src/main/resources`: Holds configuration files and resources.
+
+### Test Execution:
+
+1. **Run All Tests:**
+    ```bash
+    mvn clean test
+    ```
+
+2. **Run Specific Test:**
+    ```bash
+    mvn clean test -Dtest=WebAppRunner.java
+    ```
+
+### Report Location:
+
+Upon execution, test reports are generated at the following path:
+   - `target/ExtendReport.html`
+
+### Dependencies:
+
+Ensure that Maven is installed on your system to leverage the framework seamlessly.
+
+### Notes:
+
+- Make sure to update configurations and dependencies in the `pom.xml` file as needed.
+
+This Maven-based framework provides a solid foundation for automated testing, offering easy execution, comprehensive reporting, and an organized project structure.

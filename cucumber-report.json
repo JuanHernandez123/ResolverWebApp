@@ -1,0 +1,216 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Successful login elements display and data entry",
+        "description": "",
+        "id": "interact-with-the-elements-displayed-in-the-web-app;successful-login-elements-display-and-data-entry",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4261452900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login elements are visible",
+            "match": {
+              "location": "WebAppStepsDefinitions.login_elements_are_visible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user sets the email address and password combination",
+            "match": {
+              "location": "WebAppStepsDefinitions.the_user_sets_the_email_address_and_password_combination()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Verify List Group in Test 2 Div",
+        "description": "",
+        "id": "interact-with-the-elements-displayed-in-the-web-app;verify-list-group-in-test-2-div",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the list group",
+            "match": {
+              "location": "WebAppStepsDefinitions.verify_the_list_group()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify Dropdown Selection in Test 3 Div",
+        "description": "",
+        "id": "interact-with-the-elements-displayed-in-the-web-app;verify-dropdown-selection-in-test-3-div",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "verify \"Option 1\" is the default selected value",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "select \"Option 3\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify Button States in Test 4 Div",
+        "description": "",
+        "id": "interact-with-the-elements-displayed-in-the-web-app;verify-button-states-in-test-4-div",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 160900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify the first button is enabled and the second button is disabled",
+            "match": {
+              "location": "WebAppStepsDefinitions.verify_the_first_button_is_enabled_and_the_second_button_is_disabled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Interact with a Button in Test 5 Div",
+        "description": "",
+        "id": "interact-with-the-elements-displayed-in-the-web-app;interact-with-a-button-in-test-5-div",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "waiting for a button to be displayed and clicking it",
+            "match": {
+              "location": "WebAppStepsDefinitions.waiting_for_a_button_to_be_displayed_and_clicking_it()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "assert that a success message is displayed and the button is disabled",
+            "match": {
+              "location": "WebAppStepsDefinitions.assert_that_a_success_message_is_displayed_and_the_button_is_disabled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Retrieve Value from a Grid Cell",
+        "description": "",
+        "id": "interact-with-the-elements-displayed-in-the-web-app;retrieve-value-from-a-grid-cell",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5857100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "assert that the value of the cell is \"Ventosanzap\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ventosanzap",
+                  "offset": 38
+                }
+              ],
+              "location": "WebAppStepsDefinitions.assert_that_the_value_of_the_cell_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Interact with the elements displayed in the Web App",
+    "description": "As a user I want to validate that the elements displayed in the Web App work as expected.",
+    "id": "interact-with-the-elements-displayed-in-the-web-app",
+    "keyword": "Feature",
+    "uri": "WebAppTestsCases.feature"
+  }
+]
