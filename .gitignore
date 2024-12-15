@@ -1,2 +1,4 @@
 # Maven target directory
 /target/
+# Ignore cucumber HTML report 
+cucumber-htmlreport/report.js
