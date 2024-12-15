@@ -89,7 +89,7 @@
 					<systemPropertyVariables>
 						<app.url>${app.url}</app.url>
 					</systemPropertyVariables>
-					<argLine>-Dapp.url=${app.url}</argLine>
+					<!--<argLine>-Dapp.url=${app.url}</argLine> -->
 				</configuration>
 			</plugin>
 		</plugins>

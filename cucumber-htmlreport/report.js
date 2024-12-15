@@ -34,7 +34,7 @@ formatter.match({
   "location": "WebAppStepsDefinitions.login_elements_are_visible()"
 });
 formatter.result({
-  "duration": 4494117600,
+  "duration": 3645101300,
   "status": "passed"
 });
 formatter.match({
@@ -51,7 +51,7 @@ formatter.match({
   "location": "WebAppStepsDefinitions.the_user_sets_the_address_and_password_combination(String,String)"
 });
 formatter.result({
-  "duration": 887862400,
+  "duration": 681882600,
   "status": "passed"
 });
 formatter.scenario({
@@ -77,7 +77,7 @@ formatter.match({
   "location": "WebAppStepsDefinitions.verify_the_list_group()"
 });
 formatter.result({
-  "duration": 227386200,
+  "duration": 159534700,
   "status": "passed"
 });
 formatter.scenario({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "WebAppStepsDefinitions.verify_the_option_is_the_default_selected_value(String)"
 });
 formatter.result({
-  "duration": 44347300,
+  "duration": 28780700,
   "status": "passed"
 });
 formatter.match({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "WebAppStepsDefinitions.select_Option(String)"
 });
 formatter.result({
-  "duration": 330276400,
+  "duration": 311290000,
   "status": "passed"
 });
 formatter.scenario({
@@ -153,7 +153,7 @@ formatter.match({
   "location": "WebAppStepsDefinitions.verify_the_first_button_is_enabled_and_the_second_button_is_disabled()"
 });
 formatter.result({
-  "duration": 206771100,
+  "duration": 200017300,
   "status": "passed"
 });
 formatter.scenario({
@@ -184,14 +184,14 @@ formatter.match({
   "location": "WebAppStepsDefinitions.waiting_for_a_button_to_be_displayed_and_clicking_it()"
 });
 formatter.result({
-  "duration": 853385800,
+  "duration": 4673584500,
   "status": "passed"
 });
 formatter.match({
   "location": "WebAppStepsDefinitions.assert_that_a_success_message_is_displayed_and_the_button_is_disabled()"
 });
 formatter.result({
-  "duration": 230882700,
+  "duration": 151415100,
   "status": "passed"
 });
 formatter.scenario({
@@ -231,7 +231,7 @@ formatter.match({
   "location": "WebAppStepsDefinitions.assert_that_the_value_of_the_cell_at_coordinates_is(String,String,String)"
 });
 formatter.result({
-  "duration": 145369800,
+  "duration": 114241500,
   "status": "passed"
 });
 });
